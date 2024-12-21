@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    margin: 0;
+}
+
+.game-container {
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #000;
+}
+
+.road {
+    width: 100%;
+    height: 100%;
+    background-color: #555;
+    position: relative;
+}
+
+.car {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 125px; /* Center the car */
+}
+
+.obstacle {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
